@@ -13,6 +13,7 @@ export default class SearchResults extends PureComponent {
     render() {
         return (
             <div className="flickr-image">
+                <h3>{this.props.photo.title}</h3>
                 <img src={this.imageSrc()} alt=""/>
             </div>
         );
